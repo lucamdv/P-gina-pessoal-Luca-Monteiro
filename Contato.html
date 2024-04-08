@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Entre em contato comigo!</h1>
+      <nav>
+        <a id="abas" href="Meu Site.html">Página Principal</a>
+        <a id="abas" href="Meus eventos.html"> Meus eventos </a>
+      </nav>
+    </header>
+    <br />
+    <hr />
+    <br />
+    <div class="button-container">
+      <a
+        href="https://www.instagram.com/lucamdv/"
+        target="_blank"
+        class="button"
+      >
+        <img
+          src="icons8-instagram-old-100.png"
+          alt="Instagram Icon"
+          class="icon"
+        />
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/luca-monteiro-5b81aa2b7/"
+        target="_blank"
+        class="button"
+      >
+        <img src="icons8-linkedin-100.png" alt="LinkedIn Icon" class="icon" />
+      </a>
+
+      <a
+        href="https://github.com/lucamdv"
+        target="_blank"
+        class="button"
+      >
+        <img src="github-mark-white.png" alt="Github Icon" class="icon" />
+      </a>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+    <form>
+      <table>
+        <tr>
+          <td><label for="nome">Nome:</label></td>
+          <td><input type="text" id="nome" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">E-mail:</label></td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="assunto">Assuntos:</label></td>
+          <td>
+            <select>
+              <option value="">Entrar em contato sobre Managevent</option>
+              <option value="">Gostaria de marcar uma reunião</option>
+              <option value="">Diversos</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="mensagem">Digite sua mensagem:</label><br /></td>
+          <td><textarea id="mensagem" cols="100" rows="20"></textarea></td>
+        </tr>
+        <tr>
+          <td><button type="submit">Enviar</button></td>
+        </tr>
+      </table>
+    </form>
+    <footer id="rodape">
+      <p>Luca Monteiro © 2024 Todos os Direitos Reservados</p>
+    </footer>
+  </body>
+</html>
